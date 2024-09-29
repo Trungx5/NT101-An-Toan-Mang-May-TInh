@@ -27,5 +27,12 @@ namespace Bai_1._1
             EncryptForm encryptForm = new EncryptForm();
             encryptForm.Show();
         }
+
+        private void Bruteforce_button_Click(object sender, EventArgs e)
+        {
+            BruteForceDecypt bruteForceDecypt = new BruteForceDecypt();
+            bruteForceDecypt.Show();
+           
+        }
     }
 }

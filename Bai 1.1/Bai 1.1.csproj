@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BruteForceDecypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BruteForceDecypt.Designer.cs">
+      <DependentUpon>BruteForceDecypt.cs</DependentUpon>
+    </Compile>
     <Compile Include="EncryptForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BruteForceDecypt.resx">
+      <DependentUpon>BruteForceDecypt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EncryptForm.resx">
       <DependentUpon>EncryptForm.cs</DependentUpon>
     </EmbeddedResource>
