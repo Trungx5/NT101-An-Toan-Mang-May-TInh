@@ -16,5 +16,16 @@ namespace Bai_1._1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EncryptButton_Click(object sender, EventArgs e)
+        {
+            EncryptForm encryptForm = new EncryptForm();
+            encryptForm.Show();
+        }
     }
 }
