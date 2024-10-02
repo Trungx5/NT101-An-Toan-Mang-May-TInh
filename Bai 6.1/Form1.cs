@@ -17,7 +17,6 @@ namespace Bai_6._1
             InitializeComponent();
         }
 
-        //made Affine Cipher Encrypt
         private void Affine_Cipher()
         {
             string plainText = PlainText_TextBox.Text;
